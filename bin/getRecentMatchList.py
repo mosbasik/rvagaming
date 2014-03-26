@@ -8,7 +8,7 @@ def getRecentMatchList(player):
     the seven matches listed on that player's front page.'''
     
     # create BeautifulSoup object called "soup" from DotaBuff
-    sock = urllib.urlopen('http://dotabuff.com/players/%s/_matches' % (player,))
+    sock = urllib.urlopen('http://dotabuff.com/players/%s' % (player,))
     htmlSource = sock.read()
     sock.close()
     soup = BeautifulSoup(htmlSource)
