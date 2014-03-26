@@ -1,0 +1,227 @@
+﻿html {
+    background-image: url(images/vase-bw-1680x1050_black_edge.jpg);
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: right top;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font-size: 12pt;
+    color: #FFFFFF;
+    line-height: 16pt;
+    font-family: "Lithos Pro Regular", Arial;
+    padding: 0;
+}
+
+#main {
+    padding: 0;
+}
+
+#top_pane {
+    background: #EAEAEA;
+    height: 90px; /*Height of top section*/
+    max-width: 900px;
+    margin: auto;
+}
+
+#content_wrapper {
+    float: left;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+#left_pane {
+    position: absolute;
+    float: left;
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    opacity: .5;
+    color: black;
+}
+
+#right_pane {
+    position: relative;
+    float: left;
+    height: 100%;
+    margin-left: 30%;
+    margin-right: 10%;
+}
+
+#headTable {
+	margin: auto;
+	border: none;
+	width: 75%;
+	text-align: center;
+}
+
+
+
+
+#information_table .table_header:hover {
+    background: black;
+    opacity: 0;
+    filter:alpha(opacity=0)
+}
+
+#information_table {
+    margin: auto;
+	border-style: none;
+	width: 75%;
+	text-align: center;
+    font-style: "Lithos Pro Regular", Arial;
+    font-size: 12pt;
+}
+
+#information_table .table_header {
+    border-bottom-style: solid;
+    border-bottom-color: #FFFFFF;
+    border-bottom-width: 2px;
+}
+
+#information_table tr:hover {
+    background-color: white;
+    opacity: 0.6;
+    filter:alpha(opacity=60);
+}
+
+#information_table tr:hover a {
+    color: black;
+}
+
+#information_table a {
+    color: white;
+}
+
+#information_table a:hover, a:active {
+    color: #3399FF;
+}
+
+table_text {
+	font-size: 12pt;
+	color: white;
+	line-height: 16pt;
+}
+
+h1 {
+    font: 20pt "Lithos Pro Regular", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    line-height: 36pt;
+    text-align: center;
+}
+
+h2 {
+    font: 12pt "Lithos Pro Regular", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 18pt;
+    text-align: center;
+}
+
+.textBacking {
+    max-width: 800px;
+    background-color: #000000;
+    margin: auto;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+}
+
+div.chapterIntro {
+    font-style: italic;
+}
+
+p.subheader {
+    font-weight: bold;
+    color: #593d87;
+}
+
+div.navigation {
+    font-size: 9pt;
+    font-style: italic;
+    line-height: 12pt;
+}
+
+div.left {
+    float: left;
+    text-align: left;
+    width: 33%;
+}
+
+div.center {
+    float: left;
+    text-align: center;
+    width: 33%;
+}
+
+div.right {
+    float: left;
+    text-align: right;
+    width: 33%;
+}
+
+span.button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+    z-index: 1;
+    
+    background-image: url('blank.gif');
+}
+
+img {
+    padding: 3pt;
+    float: right;
+}
+
+img.icon {
+    padding: 0;
+    float: none;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+}
+
+a:link, a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #3399FF;
+}
+
+a.book:link, a.book:visited {
+    color: #8094D6;
+}
+
+a.book:hover, a.book:active {
+    color: #FF9933;
+}
+
+a.button:link, a.button:visited, a.button:hover, a.button:active {
+    color: #FFFFFF;
+}
+
+div.hr {
+    height: 30px;
+    background-color: transparent;
+    background-image: url(div.gif);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+}
+
+div.hr hr {
+    display: none;
+}

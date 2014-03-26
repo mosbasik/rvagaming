@@ -1,0 +1,396 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2013.11.04 23:35:09 =~=~=~=~=~=~=~=~=~=~=~=
+cd b html/bin
+-bash-3.2$ ls
+[00m[00mPlayerDictionary.py[00m   [00mgetRecentMatchList.py[00m   [00mupdateMatches.py[00m
+[00mPlayerDictionary.pyc[00m  [00mgetRecentMatchList.pyc[00m  [00mupdateNames.py[00m
+[00;34mbs4[00m                   [00;34mrequests[00m                [00;34mupdateScripts[00m
+[00mez_setup.py[00m           [00msome queries.txt[00m        [00mvirtual-python.py[00m
+[00mgetMatchInfo.py[00m       [00mtest.py[00m
+[00mgetMatchInfo.pyc[00m      [00mupdateHeroTable.py[00m
+[m-bash-3.2$ python U updateMatches.py 
+Traceback (most recent call last):
+  File "updateMatches.py", line 4, in ?
+    from bs4 import BeautifulSoup
+  File "/home/content/99/9504599/html/bin/bs4/__init__.py", line 30
+    from .builder import builder_registry, ParserRejectedMarkup
+         ^
+SyntaxError: invalid syntax
+-bash-3.2$ python updateMatches.py n[1P[1P[1P[1P[1P[1P[1@u[1P[1@u[1@s[1P[1P[1@~[1@/[1P[1P[1@/[1@u[1@s[2@r/[1@l[1@o[1@c[3@al/[1@b[1@i[2@n/[1@p[1@y[1@t[1@h[5@on2.7
+Opening connection to database teamroster... completed.
+Fetching all members from database... completed.
+
+
+Processing member Ozymandias (Christopher Poenaru)...
+***************************************************
+Getting Ozymandias's 7 most recent matches...  completed.
+--------------------------------
+Processing Match 370558910...
+Running query: have we seen Ozymandias play match 370558910?... completed.
+Record of Ozymandias playing in match 370558910 not found.
+Running query: have we seen match 370558910 at all?... completed.
+Record of match 370558910 not found.
+Scraping information about match 370558910... completed.
+Inserting match 370558910 into table `matches`... completed.
+Scraping player dictionary of match 370558910... completed.
+Processing radiant team...
+Completed processing radiant team.
+Processing dire team...
+Running query: have we seen Ozymandias play match 370558910 already?... completed.
+No such record found.
+Inserting record of Ozymandias playing Witch Doctor in match 370558910 into table `peoplematchesheroes`... completed
+Running query: have we seen Mama Ghanoush play match 370558910 already?... completed.
+No such record found.
+Inserting record of Mama Ghanoush playing Anti-Mage in match 370558910 into table `peoplematchesheroes`... completed
+Running query: have we seen SugarPova play match 370558910 already?... completed.
+No such record found.
+Inserting record of SugarPova playing Elder Titan in match 370558910 into table `peoplematchesheroes`... completed
+Completed processing dire team.
+Finished processing match 370558910.
+--------------------------------
+Processing Match 370537534...
+Running query: have we seen Ozymandias play match 370537534?... completed.
+Record of Ozymandias playing in match 370537534 not found.
+Running query: have we seen match 370537534 at all?... completed.
+Record of match 370537534 not found.
+Scraping information about match 370537534... completed.
+Inserting match 370537534 into table `matches`... completed.
+Scraping player dictionary of match 370537534... completed.
+Processing radiant team...
+Completed processing radiant team.
+Processing dire team...
+Running query: have we seen Ozymandias play match 370537534 already?... completed.
+No such record found.
+Inserting record of Ozymandias playing Sven in match 370537534 into table `peoplematchesheroes`... completed
+Running query: have we seen Mama Ghanoush play match 370537534 already?... completed.
+No such record found.
+Inserting record of Mama Ghanoush playing Dark Seer in match 370537534 into table `peoplematchesheroes`... completed
+Running query: have we seen DjiboutiKing play match 370537534 already?... completed.
+No such record found.
+Inserting record of DjiboutiKing playing Crystal Maiden in match 370537534 into table `peoplematchesheroes`... completed
+Running query: have we seen SugarPova play match 370537534 already?... completed.
+No such record found.
+Inserting record of SugarPova playing Beastmaster in match 370537534 into table `peoplematchesheroes`... completed
+Completed processing dire team.
+Finished processing match 370537534.
+--------------------------------
+Processing Match 370519802...
+Running query: have we seen Ozymandias play match 370519802?... completed.
+Record of Ozymandias playing in match 370519802 not found.
+Running query: have we seen match 370519802 at all?... completed.
+Record of match 370519802 not found.
+Scraping information about match 370519802... completed.
+Inserting match 370519802 into table `matches`... completed.
+Scraping player dictionary of match 370519802... completed.
+Processing radiant team...
+Running query: have we seen Ozymandias play match 370519802 already?... completed.
+No such record found.
+Inserting record of Ozymandias playing Slardar in match 370519802 into table `peoplematchesheroes`... completed
+Running query: have we seen Mama Ghanoush play match 370519802 already?... completed.
+No such record found.
+Inserting record of Mama Ghanoush playing Windrunner in match 370519802 into table `peoplematchesheroes`... completed
+Completed processing radiant team.
+Processing dire team...
+Completed processing dire team.
+Finished processing match 370519802.
+--------------------------------
+Processing Match 370503072...
+Running query: have we seen Ozymandias play match 370503072?... completed.
+Record of Ozymandias playing in match 370503072 not found.
+Running query: have we seen match 370503072 at all?... completed.
+Record of match 370503072 not found.
+Scraping information about match 370503072... completed.
+Inserting match 370503072 into table `matches`... completed.
+Scraping player dictionary of match 370503072... completed.
+Processing radiant team...
+Running query: have we seen Ozymandias play match 370503072 already?... completed.
+No such record found.
+Inserting record of Ozymandias playing Queen of Pain in match 370503072 into table `peoplematchesheroes`... completed
+Running query: have we seen Mama Ghanoush play match 370503072 already?... completed.
+No such record found.
+Inserting record of Mama Ghanoush playing Earthshaker in match 370503072 into table `peoplematchesheroes`... completed
+Completed processing radiant team.
+Processing dire team...
+Completed processing dire team.
+Finished processing match 370503072.
+--------------------------------
+Processing Match 370475790...
+Running query: have we seen Ozymandias play match 370475790?... completed.
+Record of Ozymandias playing in match 370475790 not found.
+Running query: have we seen match 370475790 at all?... completed.
+Record of match 370475790 not found.
+Scraping information about match 370475790... completed.
+Inserting match 370475790 into table `matches`... completed.
+Scraping player dictionary of match 370475790... completed.
+Processing radiant team...
+Running query: have we seen Ozymandias play match 370475790 already?... completed.
+No such record found.
+Inserting record of Ozymandias playing Sven in match 370475790 into table `peoplematchesheroes`... completed
+Completed processing radiant team.
+Processing dire team...
+Completed processing dire team.
+Finished processing match 370475790.
+--------------------------------
+Processing Match 369196571...
+Running query: have we seen Ozymandias play match 369196571?... completed.
+Record of Ozymandias playing in match 369196571 not found.
+Running query: have we seen match 369196571 at all?... completed.
+Record of match 369196571 not found.
+Scraping information about match 369196571... completed.
+Inserting match 369196571 into table `matches`... completed.
+Scraping player dictionary of match 369196571... completed.
+Processing radiant team...
+Running query: have we seen Ozymandias play match 369196571 already?... completed.
+No such record found.
+Inserting record of Ozymandias playing Luna in match 369196571 into table `peoplematchesheroes`... completed
+Running query: have we seen Mama Ghanoush play match 369196571 already?... completed.
+No such record found.
+Inserting record of Mama Ghanoush playing Windrunner in match 369196571 into table `peoplematchesheroes`... completed
+Running query: have we seen SugarPova play match 369196571 already?... completed.
+No such record found.
+Inserting record of SugarPova playing Crystal Maiden in match 369196571 into table `peoplematchesheroes`... completed
+Completed processing radiant team.
+Processing dire team...
+Completed processing dire team.
+Finished processing match 369196571.
+--------------------------------
+Processing Match 367738423...
+Running query: have we seen Ozymandias play match 367738423?... completed.
+Record of Ozymandias playing in match 367738423 not found.
+Running query: have we seen match 367738423 at all?... completed.
+Record of match 367738423 not found.
+Scraping information about match 367738423... completed.
+Inserting match 367738423 into table `matches`... completed.
+Scraping player dictionary of match 367738423... completed.
+Processing radiant team...
+Completed processing radiant team.
+Processing dire team...
+Running query: have we seen Ozymandias play match 367738423 already?... completed.
+No such record found.
+Inserting record of Ozymandias playing Enchantress in match 367738423 into table `peoplematchesheroes`... completed
+Running query: have we seen Mama Ghanoush play match 367738423 already?... completed.
+No such record found.
+Inserting record of Mama Ghanoush playing Elder Titan in match 367738423 into table `peoplematchesheroes`... completed
+Running query: have we seen SugarPova play match 367738423 already?... completed.
+No such record found.
+Inserting record of SugarPova playing Bounty Hunter in match 367738423 into table `peoplematchesheroes`... completed
+Running query: have we seen DjiboutiKing play match 367738423 already?... completed.
+No such record found.
+Inserting record of DjiboutiKing playing Treant Protector in match 367738423 into table `peoplematchesheroes`... completed
+Completed processing dire team.
+Finished processing match 367738423.
+Finished processing Ozymandias (Christopher Poenaru).
+
+
+Processing member libaax (Harim Ahn)...
+***************************************************
+Getting libaax's 7 most recent matches...  completed.
+--------------------------------
+Processing Match 360412998...
+Running query: have we seen libaax play match 360412998?... completed.
+Match 360412998 has already been seen.  Unnecessary to examine libaax's matches further.
+Finished processing libaax (Harim Ahn).
+
+
+Processing member lyon (Harim Ahn)...
+***************************************************
+Getting lyon's 7 most recent matches...  completed.
+--------------------------------
+Processing Match 359732010...
+Running query: have we seen lyon play match 359732010?... completed.
+Match 359732010 has already been seen.  Unnecessary to examine lyon's matches further.
+Finished processing lyon (Harim Ahn).
+
+
+Processing member FergieTime (David Park)...
+***************************************************
+Getting FergieTime's 7 most recent matches...  completed.
+--------------------------------
+Processing Match 351721642...
+Running query: have we seen FergieTime play match 351721642?... completed.
+Match 351721642 has already been seen.  Unnecessary to examine FergieTime's matches further.
+Finished processing FergieTime (David Park).
+
+
+Processing member Baba Ghanoush (Sam Cho)...
+***************************************************
+Getting Baba Ghanoush's 7 most recent matches...  completed.
+--------------------------------
+Processing Match 323841413...
+Running query: have we seen Baba Ghanoush play match 323841413?... completed.
+Match 323841413 has already been seen.  Unnecessary to examine Baba Ghanoush's matches further.
+Finished processing Baba Ghanoush (Sam Cho).
+
+
+Processing member Mama Ghanoush (Sam Cho)...
+***************************************************
+Getting Mama Ghanoush's 7 most recent matches...  completed.
+--------------------------------
+Processing Match 370558910...
+Running query: have we seen Mama Ghanoush play match 370558910?... completed.
+Match 370558910 has already been seen.  Unnecessary to examine Mama Ghanoush's matches further.
+Finished processing Mama Ghanoush (Sam Cho).
+
+
+Processing member marseilles (Peter Henry)...
+***************************************************
+Getting marseilles's 7 most recent matches...  completed.
+--------------------------------
+Processing Match 359080892...
+Running query: have we seen marseilles play match 359080892?... completed.
+Match 359080892 has already been seen.  Unnecessary to examine marseilles's matches further.
+Finished processing marseilles (Peter Henry).
+
+
+Processing member chiioke (Peter Henry)...
+***************************************************
+Getting chiioke's 7 most recent matches...  completed.
+--------------------------------
+Processing Match 344222330...
+Running query: have we seen chiioke play match 344222330?... completed.
+Match 344222330 has already been seen.  Unnecessary to examine chiioke's matches further.
+Finished processing chiioke (Peter Henry).
+
+
+Processing member applejuiceracket (Peter Henry)...
+***************************************************
+Getting applejuiceracket's 7 most recent matches...  completed.
+--------------------------------
+Processing Match 356562212...
+Running query: have we seen applejuiceracket play match 356562212?... completed.
+Match 356562212 has already been seen.  Unnecessary to examine applejuiceracket's matches further.
+Finished processing applejuiceracket (Peter Henry).
+
+
+Processing member redsurfable (Joshua Manu)...
+***************************************************
+Getting redsurfable's 7 most recent matches...  completed.
+--------------------------------
+Processing Match 352356102...
+Running query: have we seen redsurfable play match 352356102?... completed.
+Match 352356102 has already been seen.  Unnecessary to examine redsurfable's matches further.
+Finished processing redsurfable (Joshua Manu).
+
+
+Processing member redsurfaced (Joshua Manu)...
+***************************************************
+Getting redsurfaced's 7 most recent matches...  completed.
+--------------------------------
+Processing Match 347616451...
+Running query: have we seen redsurfaced play match 347616451?... completed.
+Match 347616451 has already been seen.  Unnecessary to examine redsurfaced's matches further.
+Finished processing redsurfaced (Joshua Manu).
+
+
+Processing member DjiboutiKing (Lance Nordmeyer)...
+***************************************************
+Getting DjiboutiKing's 7 most recent matches...  completed.
+--------------------------------
+Processing Match 370537534...
+Running query: have we seen DjiboutiKing play match 370537534?... completed.
+Match 370537534 has already been seen.  Unnecessary to examine DjiboutiKing's matches further.
+Finished processing DjiboutiKing (Lance Nordmeyer).
+
+
+Processing member ZORBACK (Lance Nordmeyer)...
+***************************************************
+Getting ZORBACK's 7 most recent matches...  completed.
+--------------------------------
+Processing Match 334278045...
+Running query: have we seen ZORBACK play match 334278045?... completed.
+Match 334278045 has already been seen.  Unnecessary to examine ZORBACK's matches further.
+Finished processing ZORBACK (Lance Nordmeyer).
+
+
+Processing member [SMH] TimTheBomb (Tim Nykamp)...
+***************************************************
+Getting [SMH] TimTheBomb's 7 most recent matches...  completed.
+--------------------------------
+Processing Match 49317233...
+Running query: have we seen [SMH] TimTheBomb play match 49317233?... completed.
+Match 49317233 has already been seen.  Unnecessary to examine [SMH] TimTheBomb's matches further.
+Finished processing [SMH] TimTheBomb (Tim Nykamp).
+
+
+Processing member SugarPova (Jacob Gaudaur)...
+***************************************************
+Getting SugarPova's 7 most recent matches...  completed.
+--------------------------------
+Processing Match 371841909...
+Running query: have we seen SugarPova play match 371841909?... completed.
+Record of SugarPova playing in match 371841909 not found.
+Running query: have we seen match 371841909 at all?... completed.
+Record of match 371841909 not found.
+Scraping information about match 371841909... completed.
+Inserting match 371841909 into table `matches`... completed.
+Scraping player dictionary of match 371841909... completed.
+Processing radiant team...
+Completed processing radiant team.
+Processing dire team...
+Running query: have we seen SugarPova play match 371841909 already?... completed.
+No such record found.
+Inserting record of SugarPova playing Sand King in match 371841909 into table `peoplematchesheroes`... completed
+Completed processing dire team.
+Finished processing match 371841909.
+--------------------------------
+Processing Match 371811341...
+Running query: have we seen SugarPova play match 371811341?... completed.
+Record of SugarPova playing in match 371811341 not found.
+Running query: have we seen match 371811341 at all?... completed.
+Record of match 371811341 not found.
+Scraping information about match 371811341... completed.
+Inserting match 371811341 into table `matches`... completed.
+Scraping player dictionary of match 371811341... completed.
+Processing radiant team...
+Completed processing radiant team.
+Processing dire team...
+Running query: have we seen SugarPova play match 371811341 already?... completed.
+No such record found.
+Inserting record of SugarPova playing Axe in match 371811341 into table `peoplematchesheroes`... completed
+Completed processing dire team.
+Finished processing match 371811341.
+--------------------------------
+Processing Match 370558910...
+Running query: have we seen SugarPova play match 370558910?... completed.
+Match 370558910 has already been seen.  Unnecessary to examine SugarPova's matches further.
+Finished processing SugarPova (Jacob Gaudaur).
+
+
+Processing member haeng1 (Junhaeng Lee)...
+***************************************************
+Getting haeng1's 7 most recent matches...  completed.
+--------------------------------
+Processing Match 315326287...
+Running query: have we seen haeng1 play match 315326287?... completed.
+Match 315326287 has already been seen.  Unnecessary to examine haeng1's matches further.
+Finished processing haeng1 (Junhaeng Lee).
+
+
+Processing member Mean Machine (Peter Park)...
+***************************************************
+Getting Mean Machine's 7 most recent matches...  completed.
+--------------------------------
+Processing Match 309258955...
+Running query: have we seen Mean Machine play match 309258955?... completed.
+Match 309258955 has already been seen.  Unnecessary to examine Mean Machine's matches further.
+Finished processing Mean Machine (Peter Park).
+
+
+saving database changes.
+Closing connection to database teamroster... completed.
+-bash-3.2$ cd ~
+-bash-3.2$ ls
+[00m[00;34mbackup[00m   [00;34mdata[00m                      [00mez_setup.py[00m  [00;34minclude[00m  [00;34mscctmp[00m
+[00;34mbin[00m      [00;31mdistribute-0.6.49.tar.gz[00m  [00;34mhtconfig[00m     [00;34mlib[00m      [00;34mtmp[00m
+[00mcrontab[00m  [00mdistribute_setup.py[00m       [00;34mhtml[00m         [00;34mscc[00m      [00mvirtual-python.py[00m
+[m-bash-3.2$ vim crontab 
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"crontab" 10L, 368C[>c[1;1H[34m# canary[m
+[36mMAILTO[m=""
+[34m# 1 Update Player Info
+#0,30 * * * * /web/cgi-bin/php5 "$HOME/html/mosbasik/updateplayerinfo.php"
+
+# 2 Update Player Info[m
+[31m*/30[m[35m *[m[32m *[m[31m *[m[35m *[m [33m/usr/local/bin/python2.7 "$HOME/html/bin/updateScripts/updateInfo.pp[8;1Hy"[m
+
+[34m# 3 Update `matches` and `peoplematchesheroes` with newly played games[m
+[31m*/[m[30m[43m10[m[35m *[m[32m *[m[31m *[m[35m *[m [33m/usr/local/bin/python2.7 "$HOME/html/bin/updateMatches.py"[m
+[1m[34m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H10,1[10CAll[11;1H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hx[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l-bash-3.2$ 

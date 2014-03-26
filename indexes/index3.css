@@ -1,0 +1,133 @@
+﻿html {
+    background-image: url(http://unnaturalpottery.com/images/vase-bw-1680x1050_black_edge.jpg);
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: right top;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-family: Acme, sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#page_wrapper {
+    max-width: 950px;
+    margin: auto;
+    text-align: justify;
+}
+
+#header{
+    height: 90px; /*Height of top section*/
+    width: 100%;
+    overflow: hidden;
+}
+
+#content {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.omega{
+    margin-right: 0;
+}
+
+#columns {
+    text-align: center;
+}
+
+#real_name {
+    float: left;
+    width: 33%
+}
+
+#steam_name {
+    float: left;
+    width: 33%;
+}
+
+#dotabuff {
+    float: left;
+    width: 33;
+}
+
+
+/*
+#left_pane {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 20%;
+    background-color: red;
+    opacity: .5;
+}
+
+#right_pane {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 80%;
+    background-color: green;
+    opacity: .5;
+}
+*/
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+#information_table {
+    line-height: 2em;
+    border-spacing: 0px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+#information_table a {
+  color: white;
+  text-decoration: none;
+}
+
+#information_table tr.table_body:hover {
+  background-color: blue;
+}
+
+/*
+
+#information_table tr:hover {
+    background-color: white;
+    opacity: 0.5;
+}
+
+#information_table tr#table_body:hover a:hover {
+    color: #3399FF;
+}
+
+#information_table tr #table_header:hover {
+    background-color: none;
+    opacity: 1;
+}
+
+#information_table tr:hover a {
+    color: black;
+    opacity: 1;
+}
+
+a:hover, a:active {
+    color: #3399FF;
+}
+*/

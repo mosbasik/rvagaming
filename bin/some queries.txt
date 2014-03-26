@@ -1,0 +1,6 @@
+# Give the most interesting information about the most recent 30 matches with the newest at the top
+
+SELECT `id`,`date`,`duration`,`mode`,`outcome`,`numbermembers`
+FROM `matches`
+ORDER BY `id` DESC
+LIMIT 30
