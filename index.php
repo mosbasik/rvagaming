@@ -2,7 +2,7 @@
                     
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
     <head>
-        <title>Rift Halley Academy Gaming</title>
+        <title>Rift Valley Academy Gaming</title>
         <link rel="stylesheet" type="text/css" href="unnaturalpottery.css" />
         <link rel="stylesheet" type="text/css" href="mobile-unnaturalpottery.css" media="(max-width: 800px)" />
         <link rel="icon" type="image/png" href="http://www.unnaturalpottery.com/images/favicon.ico" />
@@ -16,7 +16,7 @@
     
     <body>
         <div id="header">
-            <h1><a href="http://www.unnaturalpottery.com/">Rift Valley Academy Gaming</a></h1>
+            <h1><a href="http://www.unnaturalpottery.com/">Rift Halley Academy Gaming</a></h1>
         </div>
         
         <!-- <p style="text-align:center;">Matches not updating as of <abbr class="timeago" title="2013-10-30T04:34:10Z">2013-10-30T04:34:10Z</abbr> due to changes on Dotabuff's end.  Site rebuild is in progress to avoid this in the future, but it could take anywhere from a couple of days to weeks.</p>  -->
