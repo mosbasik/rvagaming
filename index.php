@@ -20,6 +20,8 @@
         </div>
         
         <!-- <p style="text-align:center;">Matches not updating as of <abbr class="timeago" title="2013-10-30T04:34:10Z">2013-10-30T04:34:10Z</abbr> due to changes on Dotabuff's end.  Site rebuild is in progress to avoid this in the future, but it could take anywhere from a couple of days to weeks.</p>  -->
+        
+        <p style="text-align:center;">Testing automatic webhook</p>
     
         <div id="body">
         
