@@ -23,7 +23,7 @@
 **/
 
 // Set Variables
-$LOCAL_ROOT         = "~";
+$LOCAL_ROOT         = "~/html";
 $LOCAL_REPO_NAME    = "rvagaming";
 $LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
 $REMOTE_REPO        = "git@github.com:mosbasik/rvagaming.git";
