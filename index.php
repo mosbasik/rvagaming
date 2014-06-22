@@ -2,7 +2,7 @@
                     
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
     <head>
-        <title>Rift Valley Academy Gaming</title>
+        <title>Rift Halley Academy Gaming</title>
         <link rel="stylesheet" type="text/css" href="unnaturalpottery.css" />
         <link rel="stylesheet" type="text/css" href="mobile-unnaturalpottery.css" media="(max-width: 800px)" />
         <link rel="icon" type="image/png" href="http://www.unnaturalpottery.com/images/favicon.ico" />
