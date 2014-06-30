@@ -43,18 +43,16 @@ def getMatchPlayersAndHeroes(match):
     direResults = soup.find('section', {'class' : 'dire'})
     
     # populate non-anonymous Radiant players + heroes
-    for player in radiantResults('td', {'class' : 'cell-extramedium'}):
-        if (player.getText() != "Anonymous"):
-            hero = player.parent.find('img', {'class' : 'image-hero'}).get('alt')
-            hero = hero.replace("'","")
-            players['radiant'].append((player.contents[0]['href'][9:], hero))
-    
+    for player in radiantResults('a', {'class' : 'player-radiant'}):
+        hero = player.parent.parent.find('img', {'class' : 'image-hero'}).get('alt')
+        hero = hero.replace("'","")
+        players['radiant'].append((player.get('href')[9:], hero))
+
     # populate non-anonymous Dire players + heroes
-    for player in direResults('td', {'class' : 'cell-extramedium'}):
-        if (player.getText() != "Anonymous"):
-            hero = player.parent.find('img', {'class' : 'image-hero'}).get('alt')
-            hero = hero.replace("'","")
-            players['dire'].append((player.contents[0]['href'][9:], hero))
+    for player in direResults('a', {'class' : 'player-dire'}):
+        hero = player.parent.parent.find('img', {'class' : 'image-hero'}).get('alt')
+        hero = hero.replace("'","")
+        players['dire'].append((player.get('href')[9:], hero))
     
     return players
 
@@ -142,3 +140,5 @@ def getHeroPlayed(strippedPlayers, dotabuffID):
                     raise Exception('No hero detected')
                 else:
                     return hero
+
+#-------------------------------------------------------------------------------
