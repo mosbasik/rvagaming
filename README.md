@@ -1,6 +1,4 @@
 rvagaming
 =========
 
-Source code for any services provided to the RVA Gaming group.
-
-Currently website is reachable at http://www.unnaturalpottery.com/
+Source code for the RVA Gaming group website.  Website not currently up (originally reachable at http://www.unnaturalpottery.com/).  Project on hiatus until I find a good place to host it.
