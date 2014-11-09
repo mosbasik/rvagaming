@@ -1,4 +1,0 @@
-ctz=America%2FChicago	Central
-ctz=America%2FNew_York	Eastern
-ctz=Europe%2FStockholm	Sweden
-ctz=Asia%2FSeoul		Seoul
