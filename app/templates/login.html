@@ -24,7 +24,7 @@
             {% for error in form.openid.errors %}
                 <span style="color:red;">[{{ error }}]</span>
             {% endfor %}<br>
-            |{% for provider in providers %}
+            |{% for pr in providers %}
                 <a href="javascript:set_openid('{{ pr.url }}', '{{ pr.name }}');">{{ pr.name }}</a>
             {% endfor %}
         </p>
