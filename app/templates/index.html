@@ -1,10 +1,14 @@
 {% extends 'base.html' %}
 {% block content %}
 <h1>Hello, {{ user.nickname }}!</h1>
-{% for member in members %}
-    <div>{{ member.fbname }}</div>
-    <div>{{ member.stname }}</div>
-    <div>{{ member.dbid }}</div>
-    <div>{{ member.lastseen }}</div>
-{% endfor %}
+<div class="table">
+    {% for member in members %}
+        <div class="row">
+            <div>{{ member.fbname }}</div>
+            <div>{{ member.stname }}</div>
+            <div>{{ member.dbid }}</div>
+            <div>{{ member.lastseen }}</div>
+        </div>   
+    {% endfor %}
+</div>
 {% endblock %}
