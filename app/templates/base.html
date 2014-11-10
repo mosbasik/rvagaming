@@ -9,7 +9,7 @@
     <body>
         <div>Tau-Enterprise: <a href="/">Home</a></div>
         <hr>
-        {% with messages = get_flashed_messages %}
+        {% with messages = get_flashed_messages() %}
             {% if messages %}
                 <ul>
                     {% for message in messages %}
