@@ -1,0 +1,257 @@
+﻿@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/PRmiXeptR36kaC0GEAetxjqR_3kx9_hJXbbyU8S6IN0.woff) format('woff');
+}
+@font-face{
+    font-family:"Old London";
+    src: url(fonts/OldLondon.ttf);
+}
+
+
+html {
+    background-image: url(images/pl_vs_ck_dark_1080_crop.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-color: #000000;
+    background-position: center center;
+    background-size: cover;
+    padding:0;
+    margin:0;
+    height: 100%;
+}
+
+body {
+    margin:0px;
+    font-size:16pt;
+    font-family:"Open Sans", Arial, sans-serif;
+    font-style:normal;
+    font-weight:normal;
+    color:#FFFFFF;
+    line-height:36pt;
+}
+
+
+#header {
+    margin:35px 0px 20px 0px;
+    padding:0px;
+    font-family:"Old London";
+    font-size:24pt;
+    text-align:center;
+    overflow:hidden;
+}
+#header h1 {
+    margin:0px;
+}
+#header  a:link, a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+
+#body {
+    margin-left:auto;
+    margin-right:auto;
+    padding:0px;
+    max-width:1000px;
+    /* border-top:1px solid #999; */
+    overflow:hidden;
+    line-height: 16pt;
+}
+
+
+#firstline {
+    text-align:right;
+    /* float:right; */
+    padding:10px 0px;
+    border-bottom:1px solid #999;
+    font-style:italic;
+    font-weight:bold;
+}
+
+
+#navigation {
+    padding:0px;
+    margin:0px;
+    float:left;
+    /* border-top:1px solid #999; */
+    text-align:right;
+}
+#navigation a  {
+    display:block;
+    height:100%;
+    color: #FFFFFF;
+}
+#navigation  a:link, a:visited {
+    margin:0px;
+    padding:10px;
+    font-size:16pt;
+    line-height:16pt;
+    color:white;
+    text-decoration: none;
+}
+#navigation a:link.selected, a:visited.selected {
+    background:url(images/pixel-red-70-percent.png);
+}
+#navigation a:hover  {
+    background:url(images/pixel-red-70-percent.png);
+}
+
+
+#content {
+    margin:0px;
+    padding:0px;
+    border-left:1px solid #999;
+    overflow:hidden;
+}
+
+.table {
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+    text-align:center;
+    color:white;
+    text-decoration:none;
+}
+.table a:link, a:visited {
+    color:white;
+    text-decoration: none;
+}
+.row {
+    clear:both;
+}
+.cell {
+    float:left;
+    padding:10px 0px;
+}
+.cell.Win {
+    color:#92a525;
+}
+.cell.Loss {
+    color:#c23c2a;
+}
+.header {
+    float:left;
+    padding:10px 0px;
+    border-bottom:1px solid #999;
+    font-style:italic;
+    font-weight:bold;
+}
+.row:hover .cell {
+    background:url(images/pixel-white-20-percent.png);
+}
+/*.row:hover .header {
+    background:none;
+}*/
+.cell.highlightable:hover {
+    background:url(images/pixel-red-70-percent.png);
+}
+
+.column-facebook {
+    width:30%;
+}
+.column-steam {
+    width:30%;
+}
+.column-dotabuff {
+    width:15%;
+}
+.column-lastseen {
+    width:25%;
+}
+
+.column-id {
+    width:20%;
+}
+.column-numbermembers {
+    width:20%;
+}
+.column-outcome {
+    width:20%;
+}
+.column-duration {
+    width:20%;
+}
+.column-mode {
+    width:20%;
+}
+.column-date {
+    width:20%;
+}
+
+.cell.column-numbermembers {
+    text-align:left;
+}
+.header.column-numbermembers {
+    text-align:center;
+}
+.cell.column-numbermembers.content {
+    padding:0px;
+}
+.column-numbermembers img {
+    padding:5px 0px 4px 0px;
+    vertical-align:middle;
+}
+
+.header.sorted-ASC {
+    background:url(images/arrow-red-70_percent_ASC.png);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.header.sorted-DESC {
+    background:url(images/arrow-red-70_percent_DESC.png);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+#content .text {
+    padding:10px 0px 0px 30px;
+    font-size:12pt;
+}
+#context.text strong {
+    font-family:"Open Sans", Arial, sans-serif;
+    font-style:normal;
+    font-weight:bold;
+}
+#content .text a {
+    font-family:"Open Sans", Arial, sans-serif;
+    font-style:normal;
+    font-weight:bold;
+    text-decoration:underline;
+    color:#A21717;
+}
+#content .text li {
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+#footer {
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:auto;
+    margin-right:auto;
+    clear:both;
+    text-align:center;
+    padding:0px;
+    height:50px;
+    overflow:hidden;
+}
