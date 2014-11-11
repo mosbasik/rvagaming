@@ -1,7 +1,7 @@
 from app import db
 
 
-class OtherUser(db.Model):
+class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     steam_id = db.Column(db.String(40))
     nickname = db.String(80)
